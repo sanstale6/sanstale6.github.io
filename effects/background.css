@@ -1,0 +1,21 @@
+@media (min-width: 768px) and (pointer: coarse) {
+  body.custom-background {
+    position: relative;
+    z-index: 0;
+    background-image: none;
+  }
+  body.custom-background::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    height: 100lvh;
+    z-index: -1;
+    background-image: inherit;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+}
