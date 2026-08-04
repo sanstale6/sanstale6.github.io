@@ -1,0 +1,19 @@
+#kratos-desktop-topnav,
+#kratos-mobile-topnav {
+  -webkit-backdrop-filter: blur(18px) saturate(160%);
+  backdrop-filter: blur(9px) saturate(160%);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+#kratos-desktop-topnav {
+  background: rgba(22, 24, 26, 0.5);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.06);
+}
+#kratos-mobile-topnav {
+  background: rgba(22, 24, 26, 0.5);
+}
+html[data-theme="dark"] #kratos-desktop-topnav {
+  background: rgba(18, 22, 34, 0.55);
+}
+html[data-theme="dark"] #kratos-mobile-topnav {
+  background: rgba(18, 22, 34, 0.6);
+}
